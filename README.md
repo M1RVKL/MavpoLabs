@@ -1,7 +1,10 @@
 PlantUML :
 @startuml
+
 entity User {
+
     * User_ID
+    
     --
     Name
     Email
@@ -9,6 +12,7 @@ entity User {
 }
 
 entity Accommodations {
+
     * Accommodations_ID
     --
     User_ID            ' FK → User.User_ID
@@ -18,6 +22,7 @@ entity Accommodations {
 }
 
 entity Reservation {
+
     * Reservation_ID
     --
     User_ID            ' FK → User.User_ID
@@ -29,7 +34,9 @@ entity Reservation {
     Service_type       ' FK -> Service.Service_type
 }
 
+
 entity Room_number {
+
     * Room_ID
     --
     Accommodations_ID  ' FK → Accommodations.Accommodations_ID
@@ -38,8 +45,10 @@ entity Room_number {
     Status
 }
 
+
 entity Review {
-* Review_ID
+
+    * Review_ID
     --
     User_ID            ' FK → User.User_ID
     Accommodations_ID  ' FK → Accommodations.Accommodations_ID
@@ -49,7 +58,9 @@ entity Review {
     Date
 }
 
-entity Payment {    
+
+entity Payment {
+
     * Payment_ID
     --
     Payment_status
@@ -57,7 +68,9 @@ entity Payment {
     Discount
 }
 
+
 entity Service {
+
     * Service_ID
     --
     Service_type
@@ -65,7 +78,9 @@ entity Service {
     
 }
 
+
 entity Staff {
+
     * worker_ID
     --
     Occupation  
