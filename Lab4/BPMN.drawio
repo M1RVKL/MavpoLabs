@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram name="Страница-1" id="ZPUTGbOW6QRkhy6UQ3ce">
+    <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u9e5xAQXW0UrKYs0AWal-1" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Booking" vertex="1">
+          <mxGeometry height="200" width="1490" x="200" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="u9e5xAQXW0UrKYs0AWal-8" parent="u9e5xAQXW0UrKYs0AWal-1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;" value="Search with applied filters" vertex="1">
+          <mxGeometry height="80" width="120" x="200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u9e5xAQXW0UrKYs0AWal-10" parent="u9e5xAQXW0UrKYs0AWal-1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;" value="Show results" vertex="1">
+          <mxGeometry height="90" width="130" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u9e5xAQXW0UrKYs0AWal-2" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="User" vertex="1">
+          <mxGeometry height="200" width="1490" x="200" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u9e5xAQXW0UrKYs0AWal-4" parent="u9e5xAQXW0UrKYs0AWal-2" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="60" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="u9e5xAQXW0UrKYs0AWal-6" parent="u9e5xAQXW0UrKYs0AWal-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" value="Search room" vertex="1">
+          <mxGeometry height="80" width="120" x="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9e5xAQXW0UrKYs0AWal-5" edge="1" parent="u9e5xAQXW0UrKYs0AWal-2" source="u9e5xAQXW0UrKYs0AWal-4" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="u9e5xAQXW0UrKYs0AWal-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="100" as="sourcePoint" />
+            <mxPoint x="200" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9e5xAQXW0UrKYs0AWal-12" parent="u9e5xAQXW0UrKYs0AWal-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" value="Select room" vertex="1">
+          <mxGeometry height="80" width="120" x="410" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9e5xAQXW0UrKYs0AWal-3" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Admin" vertex="1">
+          <mxGeometry height="200" width="1490" x="200" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="u9e5xAQXW0UrKYs0AWal-7" edge="1" parent="1" source="u9e5xAQXW0UrKYs0AWal-6" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="u9e5xAQXW0UrKYs0AWal-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="750" y="430" as="sourcePoint" />
+            <mxPoint x="460" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9e5xAQXW0UrKYs0AWal-9" edge="1" parent="1" source="u9e5xAQXW0UrKYs0AWal-8" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="750" y="430" as="sourcePoint" />
+            <mxPoint x="600" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9e5xAQXW0UrKYs0AWal-11" edge="1" parent="1" source="u9e5xAQXW0UrKYs0AWal-10" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="730" y="430" as="sourcePoint" />
+            <mxPoint x="665" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9e5xAQXW0UrKYs0AWal-13" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;" value="" vertex="1">
+          <mxGeometry height="70" width="1490" x="200" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="u9e5xAQXW0UrKYs0AWal-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=19;" value="Payment System" vertex="1">
+          <mxGeometry height="55" width="320" x="830" y="667.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
