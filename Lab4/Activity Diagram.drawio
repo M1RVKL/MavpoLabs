@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="Сторінка-1" id="lTSBE2yvdAUEyV5hbC0G">
-    <mxGraphModel dx="1389" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1281" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,14 +18,6 @@
         </mxCell>
         <mxCell id="xtyNuz8JxKV2EIOifLS0-76" parent="xtyNuz8JxKV2EIOifLS0-11" style="rounded=1;whiteSpace=wrap;html=1;" value="Uptade schedule" vertex="1">
           <mxGeometry height="40" width="100" x="2400" y="35" as="geometry" />
-        </mxCell>
-        <mxCell id="xtyNuz8JxKV2EIOifLS0-83" edge="1" parent="xtyNuz8JxKV2EIOifLS0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" target="xtyNuz8JxKV2EIOifLS0-84">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2500" y="55" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xtyNuz8JxKV2EIOifLS0-84" parent="xtyNuz8JxKV2EIOifLS0-11" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="2519" y="40" as="geometry" />
         </mxCell>
         <mxCell id="xtyNuz8JxKV2EIOifLS0-8" parent="xtyNuz8JxKV2EIOifLS0-7" style="swimlane;startSize=20;horizontal=0;html=1;" value="User" vertex="1">
           <mxGeometry height="150" width="2560" x="20" y="140" as="geometry" />
@@ -165,7 +157,7 @@
         <mxCell id="xtyNuz8JxKV2EIOifLS0-60" parent="xtyNuz8JxKV2EIOifLS0-9" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;" value="Receive&amp;nbsp;&lt;div&gt;confirmation&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="1940" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="xtyNuz8JxKV2EIOifLS0-61" parent="xtyNuz8JxKV2EIOifLS0-9" style="rounded=1;whiteSpace=wrap;html=1;" value="Uptade reservaton status" vertex="1">
+        <mxCell id="xtyNuz8JxKV2EIOifLS0-61" parent="xtyNuz8JxKV2EIOifLS0-9" style="rounded=1;whiteSpace=wrap;html=1;" value="Send notifications" vertex="1">
           <mxGeometry height="40" width="100" x="2080" y="45" as="geometry" />
         </mxCell>
         <mxCell id="xtyNuz8JxKV2EIOifLS0-63" parent="xtyNuz8JxKV2EIOifLS0-9" style="shape=line;html=1;strokeWidth=6;strokeColor=#000000;rotation=-90;" value="" vertex="1">
